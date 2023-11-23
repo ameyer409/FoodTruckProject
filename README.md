@@ -1,7 +1,7 @@
-## FoodTruckProject
+# FoodTruckProject
 
-# How To Run
+## How To Run
 
-# Project Description
+## Project Description
 
-# Lesson's Learned
+## Lesson's Learned
