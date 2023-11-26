@@ -16,5 +16,13 @@ public class FoodTruck {
 		String description = "Name: " + name + ", Serves: " + foodType + ", Rating: " + rating;
 		return description;
 	}
+
+	public double getRating() {
+		return rating;
+	}
+
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
 	
 }

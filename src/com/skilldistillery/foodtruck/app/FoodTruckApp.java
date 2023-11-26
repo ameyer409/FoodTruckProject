@@ -25,6 +25,7 @@ public class FoodTruckApp {
 				printTruckList(numTrucks);
 				break;
 			case 2:
+				foodTruckAverage(fleet, numTrucks);
 				break;
 			case 3:
 				break;
@@ -45,7 +46,7 @@ public class FoodTruckApp {
 		int rating;
 		int numTrucks = 0;
 //		System.out.println(fleet.length);
-		System.out.println("Enter information for up to 5 food trucks (enter \'quit\' for name to skip");
+		System.out.println("Enter information for up to 5 food trucks (enter \'quit\' for name to skip)");
 		for (int i = 0; i < fleet.length; i++) {
 			System.out.print("Truck " + (i+1) + " name: ");
 			name = kb.next();
@@ -83,6 +84,17 @@ public class FoodTruckApp {
 		for (int i = 0; i < numTrucks; i++) {
 			System.out.println(fleet[i]);
 		}
+		
+	}
+	
+	public void foodTruckAverage(FoodTruck[] fleet, int numTrucks) {
+		double sum = 0;
+		for (int i = 0; i < numTrucks; i++) {
+			sum += fleet[i].getRating();
+		}
+		sum = sum / numTrucks;
+		System.out.println("The average rating of all food trucks is " + sum);
+		return;
 		
 	}
 }
