@@ -1,5 +1,5 @@
 # FoodTruckProject
-!(istockphoto-1090191246-612x612.jpg)
+![](https://imgs.search.brave.com/PYUaRiko9c6Vqkc60C5KexZUjMrJ-qFBv2o8Z42-Eow/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA5/MDE5MTI0Ni9waG90/by9zaWduYm9hcmQt/b2YtYS1mb29kLXRy/dWNrLXdpdGgtY29s/b3JmdWwtcGVubmFu/dHMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPV8tNWFrbWV0/dVI0aUhZbGZPT0NU/a25kYzktZ2J4QXpV/Nm1hblpyekFPWTQ9)
 
 ## Project Description
 This project prompts the user to enter a list of food trucks. The user inputs the food trucks name, what type of food it sells (tacos, pizza, etc), and a rating for the food truck. The user can enter up to 5 trucks, and can input less than 5 by submitting 'quit' as the name for a truck.
