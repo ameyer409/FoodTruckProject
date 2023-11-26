@@ -28,6 +28,7 @@ public class FoodTruckApp {
 				foodTruckAverage(fleet, numTrucks);
 				break;
 			case 3:
+				getHighestRating(fleet, numTrucks);
 				break;
 			case 4:
 				System.out.println("Thank you! Have a great day!");
@@ -96,5 +97,18 @@ public class FoodTruckApp {
 		System.out.println("The average rating of all food trucks is " + sum);
 		return;
 		
+	}
+	
+	public void getHighestRating(FoodTruck[] fleet, int numTrucks) {
+		double rating = 0;
+		int arrayPos = 0;
+		for (int i = 0; i < numTrucks; i++) {
+			if (rating < fleet[i].getRating()) {
+				rating = fleet[i].getRating();
+				arrayPos = i;
+			}
+		}
+		System.out.println("The highest rated food truck is: ");
+		System.out.println(fleet[arrayPos]);
 	}
 }
