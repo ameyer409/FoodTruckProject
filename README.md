@@ -1,5 +1,5 @@
 # FoodTruckProject
-![alt text](istockphoto-1090191246-612x612.jpg)
+!(istockphoto-1090191246-612x612.jpg)
 
 ## Project Description
 This project prompts the user to enter a list of food trucks. The user inputs the food trucks name, what type of food it sells (tacos, pizza, etc), and a rating for the food truck. The user can enter up to 5 trucks, and can input less than 5 by submitting 'quit' as the name for a truck.
